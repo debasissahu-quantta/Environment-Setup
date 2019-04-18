@@ -52,10 +52,9 @@
 
 
 =======Update or Push into Server==========
-17. update in master branch
-	Comm: $
-18. Update in new branch
-	Comm: $
+17. update in master branch (Complete the all update and after commited)
+	Comm: $ git push origin branchname
+	Comm: $ git push origin master
 
 
 

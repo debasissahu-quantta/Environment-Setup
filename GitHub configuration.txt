@@ -45,5 +45,6 @@
 	Delete branch comm: git 
 
 
-
+16. Merge branch with master
+	comm: $git merge newbranchname
 

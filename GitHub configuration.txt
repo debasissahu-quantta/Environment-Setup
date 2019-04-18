@@ -43,9 +43,9 @@
 14. Add/Delete branch in your local repository.
 	Add branch comm: $ git branch newbranchname
 	Delete branch comm: 
+
 15. Checkout to another branch
 	branch check out comm 
-
 
 16. Merge branch with master
 	comm: $git merge newbranchname

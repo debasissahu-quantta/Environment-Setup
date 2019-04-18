@@ -33,11 +33,11 @@
 	Comm: $ git status
 
 12. Add changes in local repository.
-	For single file Comm: 
+	For single file Comm: git add "your file name"
 	For All file comm: $ git add -A
 
 13. Commit the changes in your local repository.
-	For single file Comm: 
+	For single file Comm: $ git commit -m "Your remarks or comment for this change"
 	For All file comm: $ git commit -a -m "Your remarks or comment for this change"
 
 14. Add/Delete branch in your local repository.

@@ -25,7 +25,7 @@
 	D. Addf SSH keys in your GitHub account (Account -> Setting -> SSH & GPG Keys -> New SSH Key)
 	E. After that you just check the final connection status using STEP-8.
 
-=======Operations===== 
+=======Local Operations===== 
 10. Fatch/Pull/Download the repository
 	Comm: $ git pull origin master       --------> Master is the branch name.
 
@@ -45,8 +45,26 @@
 	Delete branch comm: 
 
 15. Checkout to another branch
-	branch check out comm 
+	Comm: $ git checkout newbranch
 
 16. Merge branch with master
-	comm: $git merge newbranchname
+	comm: $ git merge newbranchname
+
+
+=======Update or Push into Server==========
+17. update in master branch
+	Comm: $
+18. Update in new branch
+	Comm: $
+
+
+
+
+
+
+
+
+
+
+
 

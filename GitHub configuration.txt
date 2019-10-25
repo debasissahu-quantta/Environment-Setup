@@ -17,13 +17,32 @@
 8. check SSH connection status.
 	comm: $ ssh -T git@github.com
 9. If connection is not present, then you have to connect using followed steps.
-	A. generate SSH keygen file in your system. (Which will use for all the project using same account)
-		Comm: $ ssh-keygen
-	B. After generating the file you can see the SSH Key using "cat" comment.
+	A. Ceeck Git configuration:
+		Comm: 
+		$ git config --list
+		$ git config --global  user.email
+		$ git config --global  user.name
+		
+		$ git config user.name ------------ REPO SPECIFIC
+		$ git config user.name ------------ REPO SPECIFIC
+		
+	B. Set git configuration (Email ID and User Name):
+		$ git config --global user.name "FIRST_NAME LAST_NAME"
+		$ git config --global user.email "email ID"
+		
+		$ git config --global user.name "FIRST_NAME LAST_NAME" ------------ REPO SPECIFIC
+		$ git config --global user.email "email ID" ------------ REPO SPECIFIC
+	
+	C. Enter ls -al ~/.ssh to see if existing SSH keys are present:
+		$ ls -al ~/.ssh
+	
+	D. generate SSH keygen file in your system. (Which will use for all the project using same account)
+		Comm: $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+	E. After generating the file you can see the SSH Key using "cat" comment.
 		Comm: $ cat filename.pub
-	C. Copy the key value from this file.
-	D. Addf SSH keys in your GitHub account (Account -> Setting -> SSH & GPG Keys -> New SSH Key)
-	E. After that you just check the final connection status using STEP-8.
+	F. Copy the key value from this file.
+	G. Addf SSH keys in your GitHub account (Account -> Setting -> SSH & GPG Keys -> New SSH Key)
+	H. After that you just check the final connection status using STEP-8.
 
 =======Local Operations===== 
 10. Fatch/Pull/Download the repository
